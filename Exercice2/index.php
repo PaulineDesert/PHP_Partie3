@@ -4,9 +4,8 @@
         $firstNumber = 0;
         $secondNumber = 2;
         while ($firstNumber <= 20) {
-            $firstNumber = $firstNumber * $secondNumber;
-            $firstNumber++;
-            echo $firstNumber . chr(10);
+            $firstNumber * $secondNumber;
+            echo $firstNumber++ . chr(10);
         }
     }
 

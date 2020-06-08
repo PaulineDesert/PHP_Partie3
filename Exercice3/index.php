@@ -5,8 +5,7 @@
         $secondNumber = 1;
 
         while ($firstNumber >= 10) {
-            $firstNumber = $firstNumber * $secondNumber;
-            $firstNumber--;
+            $firstNumber-- * $secondNumber;
             echo $firstNumber . chr(10);
         }
     }

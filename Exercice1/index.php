@@ -16,10 +16,10 @@
 
     $age;
 
-    for ($age = 0; $age <= 10; $age++) {
-        echo "$age </br>";
-    }
+    for ($age = 0; $age <= 10; $age++) { ?>
 
-    ?>
+    <p><?= $age ?>
+    
+    <?php } ?>
 </body>
 </html>

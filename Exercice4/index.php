@@ -5,8 +5,9 @@
       $number = 1;
 
       while ($number < 10) {
-        $number = $number + ($number / 2);
+        // $number = $number + ($number / 2);
         echo $number . chr(10);
+        $number += $number/2;
       }
         
     }
